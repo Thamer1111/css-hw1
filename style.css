@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #e0f7fa;
+    color: #004d40;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h3 {
+    color: #7AE2CF;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+  }
+  
+  .hero {
+    background-image: url('https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 15px;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .hero .goals {
+    margin: 20px;
+    padding-right: 20px;
+  }
+  
+  .video-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .video-container video {
+    width: 90%;
+    max-width: 500px;
+    border: 2px solid #004d40;
+  }
+  
+  .navigation {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .navigation a {
+    display: inline-block;
+    background-color: #00796b;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .navigation a:hover {
+    background-color: #004d40;
+  }
+  
+  .marine-gallery {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .marine-item {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+  }
+  
+  .marine-item img {
+    width: 100%;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+  }
+  
+  .marine-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .marine-table th,
+  .marine-table td {
+    border: 1px solid #004d40;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .form-section {
+    width: 90%;
+    max-width: 500px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+  }
+  
+  .exploration-form label,
+  .exploration-form p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .exploration-form input[type="text"],
+  .exploration-form select,
+  .exploration-form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #00796b;
+    border-radius: 3px;
+  }
+  
+  .exploration-form input[type="radio"] {
+    margin-left: 5px;
+  }
+  
+  .exploration-form button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .exploration-form button:hover {
+    background-color: #004d40;
+  }
+  
